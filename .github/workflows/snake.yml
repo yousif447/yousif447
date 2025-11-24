@@ -1,26 +1,26 @@
 name: Generate Snake
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Clone repo
-        uses: actions/checkout@v2
 
-      - name: Generate snake.svg
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: yousif447
           outputs: dist/snake.svg
 
-      - name: Push to output branch
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Upload Snake SVG
+        uses: actions/upload-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
-          publish_branch: output
+          name: snake-svg
+          path: dist/snake.svg
