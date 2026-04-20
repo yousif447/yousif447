@@ -2,7 +2,7 @@
 
 ###
 
-<p align="center">I'm Yousif Adel, a passionate Full-Stack Web Developer who loves building scalable, user-friendly applications.</p>
+<p align="center">I'm Yousif Adel, a passionate Front-End Developer specializing in React and Next.js, focused on building scalable, high-performance, and user-friendly web applications.</p>
 
 ###
 
@@ -10,7 +10,10 @@
 
 ###
 
-<p align="left">✨ Creating bugs since: my first “Hello World!” in C++ (2019)<br>⚡ Specializing in: Full-stack web development and responsive UI design<br>🔭 Working on: Scalable web apps and cool side projects<br>🎯 Goals: To architect large-scale systems and share knowledge through open-source<br>🎲 Fun fact: I treat fixing bugs like solving puzzles 🧩</p>
+<p align="left">✨ Creating bugs since: my first “Hello World!” in C++ (2019)<br>⚡ Expertise in: React, Next.js, component-based architecture, and responsive design
+<br>🔭 Currently building: Modern, scalable front-end applications using the latest web technologies
+<br>🎯 Goal: To become an expert in front-end engineering and contribute to large-scale products
+<br>🎲 Fun fact: Debugging feels like solving a puzzle to me 🧩</p>
 
 ###
 
